@@ -6,13 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.1.5</version>
-		<!--<relativePath/>--> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eazybytes</groupId>
-	<artifactId>accounts</artifactId>
-	<packaging>war</packaging>
+	<artifactId>accountsRepo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>accounts</name>
+	<name>accountsRepo</name>
 	<description>Microservice for Accounts</description>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
