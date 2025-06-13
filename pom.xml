@@ -5,12 +5,20 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.1.4</version>
 		<relativePath/>
 	</parent>
 	<groupId>com.eazybytes</groupId>
 	<artifactId>accountsRepo</artifactId>
 	<packaging>war</packaging>
+=======
+		<version>3.1.5</version>
+		<!--<relativePath/>--> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.eazybytes</groupId>
+	<artifactId>accountsRepo</artifactId>
+>>>>>>> 95b1bcc50d9795179dacb16bd2a26b942000e8ea
 	<version>0.0.1-SNAPSHOT</version>
 	<name>accountsRepo</name>
 	<description>Microservice for Accounts</description>
