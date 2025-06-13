@@ -43,7 +43,7 @@ public class AccountController {
             ),
             @ApiResponse(
                     responseCode = "500",
-                    description = "HTTP Status Internal Server Error",
+                    description = "HTTP Status Internal Server Errorr",
                     content = @Content(
                             schema = @Schema(implementation = ErrorResponseDto.class)
                     )
