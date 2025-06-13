@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>3.1.4</version>
+		<relativePath/>
 	</parent>
 	<groupId>com.eazybytes</groupId>
-	<artifactId>accounts</artifactId>
+	<artifactId>accountsRepo</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>accounts</name>
+	<name>accountsRepo</name>
 	<description>Microservice for Accounts</description>
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
@@ -66,6 +66,10 @@
 
 	<build>
 		<plugins>
+		 <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

@@ -131,7 +131,7 @@ public class AccountController {
             ),
             @ApiResponse(
                     responseCode = "417",
-                    description = "Expectation Failed"
+                    description = "Expectation Faileddd"
             ),
             @ApiResponse(
                     responseCode = "500",
