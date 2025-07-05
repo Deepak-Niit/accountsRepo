@@ -1,4 +1,4 @@
-#Start with a base image containing Java runtime
+#Start with a base image containing Java at runtime
 #openjdk - image name
 #17-jdk-slim - tag name
 FROM openjdk:17-jdk-slim
